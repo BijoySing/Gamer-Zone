@@ -8,11 +8,13 @@
     /* border: 4px red solid; */
     background-color: rgb(252, 251, 250);
     border-radius: 5px;
-    box-shadow:  2px 5px 5px 1px rgb(223, 211, 211);
+    box-shadow: 2px 5px 5px 1px rgb(223, 211, 211);
 }
 
 body {
     margin: 0px;
+    font-family: "Lato", sans-serif;
+
 }
 
 .pic {
@@ -66,3 +68,104 @@ body {
     background: rgba(11, 2, 35, 0.10);
     margin-right: 5px;
 }
+
+.txt p {
+    font-size: 70px;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0px !important;
+
+    text-align: center;
+font-family: Work Sans;
+font-size: 95px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+text-transform: uppercase;
+
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+    max-width: 1400px;
+    /* border: 2px, solid rgb(20, 15, 15); */
+    /* background-color: rgb(201, 162, 162); */
+    margin: 0 auto;   
+   justify-content: space-between;  
+   /* border: 2px #0f0f0f solid; */
+ 
+   align-items: center;
+   margin-top: 30px;
+
+
+
+}
+
+.pic2 {
+    /* border: 2px, solid red; */
+    width: 100%;
+    /* background-color: #8758F1; */
+
+}
+.txt{
+    padding-left:0px ;
+    /* border:2px solid #0f0f0f; */
+
+}
+.txt h1{
+margin: 0px !important;
+padding: 0px !important;
+color: #0B0223;
+text-align: center;
+font-family: Work Sans;
+font-size: 48px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: uppercase;
+
+}
+.txt li{
+    list-style: none;
+    font-size: 20px;
+    color:rgb(99, 96, 96);
+    margin-bottom: 0px;
+    padding: ;
+}
+.sign{
+    background-color:#f948b2;
+    padding: 20px 30px;
+    border-radius: 40px;
+    color:white;
+    font-weight: 600;
+    border: none;
+    margin-right: 15px ;
+
+}
+.go{
+    background-color:rgb(56, 183, 233);
+    padding: 20px 30px;
+    border-radius: 40px;
+    color:white;
+    font-weight: 600;
+    border: none;
+}
+.icon1,.icon2,.icon3{
+    object-fit: cover;
+    display: flex;
+align-items: center;
+gap: 5px;
+
+
+}
+.icon1{
+    padding-top:10px ;
+}
+.icon3{
+    padding-bottom: 20px;
+}
+
+
