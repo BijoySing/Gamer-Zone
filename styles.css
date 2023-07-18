@@ -1,6 +1,6 @@
 .navbar {
     display: flex;
-    max-width: 1440px;
+    max-width: 1400px;
     margin: 0 auto;
     font-family: "Lato", sans-serif;
     justify-content: space-between;
@@ -78,12 +78,12 @@ body {
     margin: 0px !important;
 
     text-align: center;
-font-family: Work Sans;
-font-size: 95px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
-text-transform: uppercase;
+    font-family: Work Sans;
+    font-size: 95px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
 
 }
 
@@ -91,14 +91,14 @@ text-transform: uppercase;
     display: flex;
     justify-content: center;
     max-width: 1400px;
-    /* border: 2px, solid rgb(20, 15, 15); */
+    border: 2px rgb(20, 15, 15) solid;
     /* background-color: rgb(201, 162, 162); */
-    margin: 0 auto;   
-   justify-content: space-between;  
-   /* border: 2px #0f0f0f solid; */
- 
-   align-items: center;
-   margin-top: 30px;
+    margin: 0 auto;
+    justify-content: space-between;
+    /* border: 2px #0f0f0f solid; */
+
+    align-items: center;
+    margin-top: 30px;
 
 
 
@@ -110,62 +110,140 @@ text-transform: uppercase;
     /* background-color: #8758F1; */
 
 }
-.txt{
-    padding-left:0px ;
+
+.txt {
+    padding-left: 0px;
     /* border:2px solid #0f0f0f; */
 
 }
-.txt h1{
-margin: 0px !important;
-padding: 0px !important;
-color: #0B0223;
-text-align: center;
-font-family: Work Sans;
-font-size: 48px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
-text-transform: uppercase;
+
+.txt h1 {
+    margin: 0px !important;
+    padding: 0px !important;
+    color: #0B0223;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
 
 }
-.txt li{
+
+.txt li {
     list-style: none;
     font-size: 20px;
-    color:rgb(99, 96, 96);
+    color: rgb(99, 96, 96);
     margin-bottom: 0px;
-    padding: ;
+    font-weight: 500;
 }
-.sign{
-    background-color:#f948b2;
+
+.sign {
+    background-color: #f948b2;
     padding: 20px 30px;
     border-radius: 40px;
-    color:white;
+    color: white;
     font-weight: 600;
     border: none;
-    margin-right: 15px ;
+    margin-right: 15px;
 
 }
-.go{
-    background-color:rgb(56, 183, 233);
+
+.go {
+    background-color: rgb(56, 183, 233);
     padding: 20px 30px;
     border-radius: 40px;
-    color:white;
+    color: white;
     font-weight: 600;
     border: none;
 }
-.icon1,.icon2,.icon3{
+
+.icon1,
+.icon2,
+.icon3 {
     object-fit: cover;
     display: flex;
-align-items: center;
-gap: 5px;
+    align-items: center;
+    gap: 10px;
 
 
 }
-.icon1{
-    padding-top:10px ;
+
+.icon1 {
+    padding-top: 10px;
 }
-.icon3{
+
+.icon3 {
     padding-bottom: 20px;
 }
 
+.second {
+    display: flex;
+    max-width: 1400px;
+    margin: 0 auto;
+    /* margin-top: 100px; */
+    font-family: "Lato", sans-serif;
+    justify-content: space-between;
+    border: 4px red solid;
+    background-color: rgb(252, 251, 250);
+    border-radius: 5px;
+    /* box-shadow: 2px 5px 5px 1px rgb(223, 211, 211); */
+}
 
+.p1 {
+    font-size: 70px;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.p2 {
+    text-align: end;
+    color: #515055;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 509;
+
+}
+
+.know {
+    background-color: #f948b2;
+    padding: 20px 35px;
+    border-radius: 42px;
+    color: white;
+    font-weight: 600;
+    border: none;
+    margin-top: 20px;
+
+}
+
+.btn {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.p3 {
+    font-size: 25px;
+    text-align: right;
+
+}
+
+.p4 {
+    margin: 0px !important;
+    color: #534C64;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 30px;
+    font-weight: 800;
+}
