@@ -344,8 +344,8 @@ body {
 }
 
 .c {
-    width: 100%;
-    margin-right: 10px;
+    /* width: 100%; */
+    /* margin-right: 10px; */
 }
 
 /* kk */
@@ -1040,4 +1040,122 @@ body {
     }
     
 }
+/* hi */
 
+
+
+.overlayCont {
+    position: relative;
+    max-width: 330px;
+    border-radius: 5px;
+ }
+ 
+ .overlayCont img {
+    display: block;
+    width: 100%;
+    height: auto;
+    box-shadow: 0 0 5px grey;
+    border-radius: 8px;
+ }
+ 
+ .box i {
+    color: white;
+    font-size: 5rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+ }
+ 
+ .box:hover i{
+    color: #eee;
+ }
+ 
+ 
+ .hoverIcon{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: 0.5s all ease;
+    /* background-color: rgb(99, 100, 99); */
+    border-radius: 8px;
+ }
+ .overlayCont:hover .hoverIcon{
+    opacity: 2;
+ }
+ 
+ 
+ h3{
+    color: rgb(255, 251, 251);
+    font-weight: 700;
+    font-family: 'Segoe UI';
+    text-align: center;
+    
+ }
+ .hoverIcon .watchNowText {
+    display: block;
+    color: white;
+    text-align: center;
+    font-family: 'Segoe UI';
+    font-size: 1.5rem;
+    margin-top: 5px;
+}
+.video {
+    position: relative;
+    max-width: 330px;
+    border-radius: 5px;
+}
+
+.video img {
+    display: block;
+    width: 100%;
+    height: auto;
+    box-shadow: 0 0 5px grey;
+    border-radius: 8px;
+}
+
+.hoverIcon {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: 0.9s all ease;
+    background-color: rgba(99, 100, 99, 0.8); 
+    backdrop-filter: blur(1px);
+    
+    border-radius: 8px;
+}
+
+.overlayCont:hover .hoverIcon {
+    opacity: 1;
+}
+
+.hoverIcon i {
+    color: white;
+    font-size: 5rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.hoverIcon h3 {
+    color: rgb(255, 251, 251);
+    font-weight: 700;
+    font-family: 'Segoe UI';
+    text-align: center;
+}
+
+.hoverIcon .watchNowText {
+    display: block;
+    color: white;
+    text-align: center;
+    font-family: 'Segoe UI';
+    font-size: 1.5rem;
+    margin-top: 5px;
+}
