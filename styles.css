@@ -859,21 +859,24 @@ body {
 
     .icon-features {
         /* border: 10px rgb(24, 31, 22) solid; */
-        margin: 20px;
-        max-width: 500px;
+        margin: 0px;
+        max-width:500px;
         display: flex;
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
+        gap:0px;
+        
     }
 
     .icon4 {
         display: flex;
         /* background-color: #9793a3; */
         border-radius: 40px;
-        padding: 2px 1px;
+        padding:0px;
         gap: 2px;
         cursor: pointer;
+        padding: 5px;
     }
 
     .p9 {
@@ -883,7 +886,7 @@ body {
     }
 
     .icon4 img {
-        width: 15%;
+        width: 20%;
     }
 
     icon4:hover {
