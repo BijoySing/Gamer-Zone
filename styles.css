@@ -732,7 +732,7 @@ body {
     color: #6d6d6e;
     text-align: center;
     font-family: Work Sans;
-    font-size: 5px;
+    font-size: 10px;
     font-weight: 600;
     padding-top: 20px
     }
@@ -757,6 +757,7 @@ body {
         display: flex;
         /* border: 10px rgb(56, 211, 8) solid; */
         flex-direction: column-reverse;
+        gap:0px
     
     }
     .txt3 {
@@ -776,13 +777,14 @@ body {
     .pic4 {
         display: flex;
         justify-content: center;
-        width: 80%;
-        height: 250px;
+        width: 75%;
+        height: 230px;
     }
     
     .pc4 {
         /* border: 10px rgb(56, 211, 8) solid;  */
         border-radius: 10px;
+        margin-left: 80px;
     
     }
     .p8{
@@ -791,9 +793,9 @@ body {
     }
     .pic5 {
         position: relative;
-        left: 190px;
-        width: 40%;
-        bottom: 100px;
+        left: 150px;
+        width: 35%;
+        bottom: 70px;
         margin: 0px;
     }
     
