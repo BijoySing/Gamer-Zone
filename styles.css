@@ -634,4 +634,19 @@ body {
         font-size: 15px;
 
     }
+    .second {
+        display: flex;
+        max-width: 500px;
+        flex-direction: column;
+        /* margin-top: 100px; */
+        font-family: "Lato", sans-serif;
+        justify-content: space-between;
+        /* border: 4px red solid; */
+        background-color: rgb(252, 251, 250);
+        border-radius: 5px;
+        /* box-shadow: 2px 5px 5px 1px rgb(223, 211, 211); */
+    }
+    .pic3{
+        width: 100%;
+    }
 }
