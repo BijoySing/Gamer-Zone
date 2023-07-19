@@ -859,13 +859,14 @@ body {
 
     .icon-features {
         /* border: 10px rgb(24, 31, 22) solid; */
-        margin: 0px;
+        margin: 0px !important;
         max-width:500px;
         display: flex;
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
         gap:0px;
+        padding: 0px;
         
     }
 
@@ -914,6 +915,8 @@ body {
         font-style: normal;
         font-weight: 800;
         line-height: normal;
+        margin: 0px;
+        margin-bottom: 5px;
     }
 
     .foot {
