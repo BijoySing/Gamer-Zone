@@ -745,5 +745,48 @@ body {
     
         /* border: 4px red solid; */
     }
+    .video {
+        width: 85%;
+        /* border: 4px red solid; */
+    
+    }
+    .play {
+        max-width: 500px;
+        margin: 0 auto;
+        display: flex;
+        /* border: 10px rgb(56, 211, 8) solid; */
+        flex-direction: column-reverse;
+    
+    }
+    .txt3 {
+        /* border: 10px rgb(5, 7, 5) solid;  */
+        text-align: center;
+    
+    
+    }
+    
+    .x5 {
+        font-size: 30px;
+        font-family: Work Sans;
+    }
+    
+    .pic4 {
+        display: flex;
+        justify-content: center;
+        width: 80%;
+        height: 250px;
+    }
+    
+    .pc4 {
+        /* border: 10px rgb(56, 211, 8) solid;  */
+        border-radius: 10px;
+        margin-top: 30px;
+    
+    }
+    .p8{
+        font-size: 15px;
+        color: #403e46;
+    }
+    
     
 }
