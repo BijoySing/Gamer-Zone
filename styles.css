@@ -6,9 +6,15 @@
     justify-content: space-between;
     align-items: center;
     /* border: 4px red solid; */
-    background-color: rgb(252, 251, 250);
+    /* background-color: rgb(252, 251, 250); */
     border-radius: 5px;
-    box-shadow: 1px 1px 10px 1px rgb(223, 211, 211);
+    /* box-shadow: 1px 1px 1px 1px rgb(223, 211, 211); */
+}
+nav{
+    background-color: rgb(252, 250, 247);
+    box-shadow: 5px 1px 10px 5px rgb(223, 211, 211);
+
+
 }
 
 .f {
