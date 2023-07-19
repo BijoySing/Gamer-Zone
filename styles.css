@@ -516,6 +516,7 @@ body {
         align-items: center;      
         padding-bottom: 10px;  
         box-shadow: none;
+        background-color: none;
     }
     .pic{
         font-size: 20px;
@@ -570,6 +571,12 @@ body {
     
     
     }
+    .pic2 {
+        /* border: 2px, solid red; */
+        width: 100%;
+        /* background-color: #8758F1; */
+    
+    }
     .txt p {
         
         background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
@@ -580,12 +587,24 @@ body {
     
         text-align: center;
         font-family: Work Sans;
-        font-size: 85px;
+        font-size: 50px;
         font-style: normal;
         font-weight: 800;
         line-height: normal;
         text-transform: uppercase;
     
     }
+    .txt h1 {
+        margin: 0px !important;
+        padding: 0px !important;
+        color: #0B0223;
+        text-align: center;
+        font-family: Work Sans;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        text-transform: uppercase;
     
+    }
 }
