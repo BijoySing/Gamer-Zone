@@ -722,7 +722,7 @@ body {
     }
     .p5 {
         color: #0a0a0a;
-        font-size: 28px;
+        font-size: 20px;
         font-weight: 800;
         text-align: center;
         margin: 0px !important;
@@ -732,21 +732,22 @@ body {
     color: #6d6d6e;
     text-align: center;
     font-family: Work Sans;
-    font-size: 12px;
+    font-size: 5px;
     font-weight: 600;
     padding-top: 20px
     }
     .box {
         display: flex;
         flex-direction: column;
-        width: 80%;
+        width: 70%;
         justify-content: center;
         align-items: center;
     
         /* border: 4px red solid; */
     }
     .video {
-        width: 85%;
+        width: 80%;
+        height: 60%;
         /* border: 4px red solid; */
     
     }
@@ -761,12 +762,14 @@ body {
     .txt3 {
         /* border: 10px rgb(5, 7, 5) solid;  */
         text-align: center;
+        margin: 0px;
+        padding: 0px;
     
     
     }
     
     .x5 {
-        font-size: 30px;
+        font-size: 20px;
         font-family: Work Sans;
     }
     
@@ -780,12 +783,18 @@ body {
     .pc4 {
         /* border: 10px rgb(56, 211, 8) solid;  */
         border-radius: 10px;
-        margin-top: 30px;
     
     }
     .p8{
-        font-size: 15px;
+        font-size: 10px;
         color: #403e46;
+    }
+    .pic5 {
+        position: relative;
+        left: 190px;
+        width: 40%;
+        bottom: 100px;
+        margin: 0px;
     }
     
     
