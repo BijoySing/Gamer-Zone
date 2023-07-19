@@ -996,4 +996,48 @@ body {
 
 
 }
+/* kk */
+@media screen and (width: 768px) {
+    .navbar {
+        display: flex;
+        max-width: 1000px;
+        margin: 0 auto;
+        font-family: "Lato", sans-serif;
+        justify-content: space-between;
+        align-items: center;
+        /* border: 4px red solid; */
+        /* background-color: rgb(252, 251, 250); */
+        border-radius: 5px;
+        /* box-shadow: 1px 1px 1px 1px rgb(223, 211, 211); */
+    }
+    .item {
+        display: flex;
+        text-decoration: none;
+        justify-content: space-evenly;
+        padding-right: 50px;
+        flex-direction: row;
+        list-style: none;
+        width: 100%;
+        align-items: center;
+        /* border: 4px red solid; */
+        font-size: 25px;
+        /* border: #0a0a0a 1px solid; */
+    
+    }
+    .flow{
+        /* border: #0a0a0a 2px solid; */
+    }
+    .yt{
+        width:220px;
+        display:flex;
+        align-items: center;
+    }
+    .pic img{
+        width: 70px;
+    }
+    .pic p{
+        font-size: 30px;
+    }
+    
+}
 
