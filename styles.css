@@ -506,15 +506,16 @@ body {
 
 /* joy */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 500px) {
 
     .navbar {
-        max-width: 768px;
+        max-width: 500px;
         margin: 0 auto;
         display: flex;
         flex-direction: column;
         align-items: center;      
         padding-bottom: 10px;  
+        box-shadow: none;
     }
     .pic{
         font-size: 20px;
@@ -554,7 +555,7 @@ body {
         display: flex;
         flex-direction: column;
         flex-direction: column-reverse;
-        max-width: 768px;
+        max-width: 500px;
         /* border: 2px rgb(20, 15, 15) solid; */
         /* background-color: rgb(201, 162, 162); */
         margin: 0 auto;
@@ -563,8 +564,27 @@ body {
     
         align-items: center;
         margin-top: 30px;
-        margin-bottom: 50px;
+        margin: 90px;
+        gap: 60px;
+        padding-bottom: 200px;
     
+    
+    }
+    .txt p {
+        
+        background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin: 0px !important;
+    
+        text-align: center;
+        font-family: Work Sans;
+        font-size: 85px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+        text-transform: uppercase;
     
     }
     
