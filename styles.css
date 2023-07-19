@@ -665,16 +665,7 @@ body {
         font-weight: 700;
         line-height: normal;
     }
-    .p2 {
-        color: #515055;
-        font-family: Work Sans;
-        font-size: 10px;
-        font-weight: 500;
-        line-height: 105x;
-        width: 300px;
-        text-align: center;
-        margin-left: 40px;    
-    }
+    
     .know {
         background-color: #f948b2;
         padding: 10px 25px;
@@ -692,5 +683,15 @@ body {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+    .p2 {
+        color: #515055;
+        font-family: Work Sans;
+        font-size: 10px;
+        font-weight: 500;
+        line-height: 105x;
+        width: 300px;
+        text-align: center;
+        margin-left: 0px;    
     }
 }
