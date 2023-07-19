@@ -91,7 +91,7 @@ body {
     display: flex;
     justify-content: center;
     max-width: 1400px;
-    border: 2px rgb(20, 15, 15) solid;
+    /* border: 2px rgb(20, 15, 15) solid; */
     /* background-color: rgb(201, 162, 162); */
     margin: 0 auto;
     justify-content: space-between;
@@ -99,7 +99,7 @@ body {
 
     align-items: center;
     margin-top: 30px;
-
+        margin-bottom: 50px;
 
 
 }
@@ -185,10 +185,11 @@ body {
     /* margin-top: 100px; */
     font-family: "Lato", sans-serif;
     justify-content: space-between;
-    border: 4px red solid;
+    /* border: 4px red solid; */
     background-color: rgb(252, 251, 250);
     border-radius: 5px;
     /* box-shadow: 2px 5px 5px 1px rgb(223, 211, 211); */
+    margin-bottom: 150px;
 }
 
 .p1 {
@@ -239,7 +240,7 @@ body {
 
 }
 
-.p4 {
+.p4{
     margin: 0px !important;
     color: #534C64;
     text-align: right;
@@ -265,7 +266,7 @@ body {
 }
 
 .p5 {
-    color: #0B0223;
+    color: #0a0a0a;
     font-size: 55px;
     font-weight: 800;
     margin: 0px !important;
@@ -296,7 +297,7 @@ body {
 
 .p6 {
     margin: 0px !important;
-    color: #534C64;
+    color: #6d6d6e;
     text-align: center;
     font-family: Work Sans;
     font-size: 20px;
@@ -313,6 +314,9 @@ body {
 .box img {
     width: 95%;
 }
+.p7{
+    color: gray;
+}
 
 .c {
     width: 100%;
@@ -322,29 +326,30 @@ body {
 /* kk */
 .p7 {
 
-    color: #31039b;
+    color: rgb(119, 116, 116);
     font-family: Work Sans;
-    font-size: 20px;
+    font-size: 18px;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 600;
     line-height: 30px;
     /* 150% */
 }
 
 .play {
-    width: 1400px;
-    margin: 0 auto;
+    max-width:1400px;
+     margin: 0 auto; 
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    border: 10px rgb(56, 211, 8) solid;
-    /* gap: 200px; */
+    justify-content:space-between;
+    /* border: 10px rgb(56, 211, 8) solid; */
+    gap: 205px;
 
 }
 
 .txt3 {
     /* border: 10px rgb(5, 7, 5) solid;  */
     text-align: left;
+    margin-bottom: 300px;
 
 
 }
@@ -361,5 +366,122 @@ body {
 .pc4{
     /* border: 10px rgb(56, 211, 8) solid;  */
     border-radius:10px ;
+    margin-top:30px ;
 
+}
+.pic5{
+    position: relative;
+    left: 500px;
+    bottom: 230px;
+    margin: 0px;
+}
+.icon-features{
+    /* border: 10px rgb(24, 31, 22) solid; */
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 50px;
+    padding-bottom: 50px;
+
+}
+.btn{
+    
+}
+.icon4{
+    display: flex;
+    /* background-color: #9793a3; */
+    border-radius: 40px;
+    padding:5px 10px;
+    gap: 10px;
+    cursor:pointer;
+}
+.p9{
+font-weight: 600;
+font-size: 20px;
+color: #0B0223;
+}
+.icon4:hover{
+    background-color: #9793a3;
+
+}
+.foot{
+    background: #0B0223;
+        display: flex;
+    justify-content:center ;
+    flex-direction: column;
+    margin-top: 30px;
+    padding:1px 1px 1px 1px ;
+
+}
+.x6{
+    color: white;
+    font-size: 30px;
+}
+.pic6{
+    display: flex;
+    
+    /* //   border: 4px red solid; */
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: 35px;
+    font-weight: 800;
+
+    padding: 20px 2px;
+}
+.pic6 img{
+    width: 80px;
+    height: 40px;
+    
+}
+.list1{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 30px;
+    color: aliceblue;
+    font-size: 17px;
+    
+}
+.list1 li a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+.list2 li a{
+    color:rgb(189, 191, 194);
+    font-weight: 500;
+    text-decoration: none;
+    list-style: none;
+}
+.icon5{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin: 50px 5px 10px 100px;
+
+}
+.icon5 img{
+    width: 32px;
+    cursor: pointer;
+}
+.a{
+    color: #f948b2;
+}
+.list2{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 50px;
+    margin-top: 50px;
+    font-size: 10px;
+    
+}
+.p0{
+    color: #9793a3;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 15px;
 }
