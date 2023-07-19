@@ -529,7 +529,7 @@ body {
 
 /* joy */
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 768px) {
 
     .navbar {
         max-width: 500px;
@@ -859,14 +859,13 @@ body {
 
     .icon-features {
         /* border: 10px rgb(24, 31, 22) solid; */
-        margin: 0px !important;
         max-width:500px;
         display: flex;
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
         gap:0px;
-        padding: 0px;
+        padding-bottom: 5px;
         
     }
 
@@ -991,3 +990,4 @@ body {
 
 
 }
+
